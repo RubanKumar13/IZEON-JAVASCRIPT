@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIKER</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container">
+              <div class="navbar-brand">
+                <a href="" class="navbar-brand text-danger">BIKES</a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                      <a class="nav-link "  href="">Home</a>
+                     </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="">About</a>
+                     </li>                 
+                     <li class="nav-item">
+                      <a class="nav-link" href="">Models</a>
+                     </li>                 
+                     <li class="nav-item">
+                      <a class="nav-link" href="">Contact</a>
+                     </li>                
+                  </ul>
+             </div>
+          </div>
+        </nav>
+        <!-- content -->
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 pt-3">
+                <div class="row">
+                    <div class="col-4"><img src="./images/honda.jpg" id="img1" class="img-fluid" alt="1"></div>
+                    <div class="col-4"><img src="./images/download.jpg" id="img2" class="img-fluid" alt="2"></div>
+                    <div class="col-4"><img src="./images/kawasaki.jpg" id="img3" class="img-fluid" alt="3"></div>
+                </div>
+                <br>
+                <div><img id="main" src="./images/honda.jpg" class="img-fluid" alt=""></div>
+            </div>
+            <div class="col-lg-6 col-sm-12 pt-3 mt-3 pb-3" id="color">
+                <div class="row p-2">
+                    <p class="round" id="c1"></p>
+                    <p class="round1" id="c2"></p>
+                    <p class="round2" id="c3"></p>
+                </div>
+                <p class="text-center display-6">Lets ride</p>
+                <p class="text-center display-6">Don't fear Dying fear not living</p>
+                <div class="border p-3">
+                    <h6 class="text-center">BIKE DETAILS</h6>
+                    <div class="r pt-3">
+                        <p>MODEL NAME: <SPan  id="name">HONDA</SPan></p>
+                    </div>
+                    <div class="r"><p>YEAR: <SPan  id="year">2016</SPan></p></div>
+                    <div class="r"><p>MRP:Rs.<span  id="price">1,20,000</span></p></div>   
+               </div>
+               <br>
+                <a href="" class="btn btn-danger d-block">Book Now</a>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
